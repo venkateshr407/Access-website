@@ -20,7 +20,6 @@ const Styles = styled.div `
 
  const Nav1 = () =>(
   <Styles>
-   
     <Navbar bg="light" expand="lg">
       <Navbar.Brand href="/"> Access</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />

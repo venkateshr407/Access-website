@@ -4,7 +4,7 @@ export default function Roadmap() {
     return (
         <div>
              <div class="skills-roadmap">
-        <h1 data-aos="fade-up">Roadmap of access</h1>
+        <h1 data-aos="fade-up">ROADMAP</h1>
         <p data-aos="fade-up">We help you to build your career !</p>
         </div>
             <div class="timeline-container" >

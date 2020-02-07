@@ -9,7 +9,7 @@ function Team() {
         // <h1 class="skills">OUR TEAM</h1>
         <div class="skills-team" id="team" data-aos="fade-up">
             <h1 data-aos="fade-up">OUR TEAM</h1>
-            <p data-aos="fade-up">Learn from our IT professional's, we help you to build you're career.</p>
+            <p className="teampara" data-aos="fade-up">Learn from our IT professional's, we help you to build you're career.</p>
         
        <div class="wrapper" >
             <div class="grid-card" data-aos="fade-up">

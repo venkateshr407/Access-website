@@ -1,13 +1,13 @@
 import React from 'react'
 import Img from 'react-image'
-import Img1 from "../images/programming.png";
+import Img1 from "../images/team skils.png";
 function Aboutaccess() {
     return (
         <div class="gain" data-aos="fade-up">
      
 <div class="skills" id="about" data-aos="fade-up">
-        <h1 data-aos="fade-up">Skills you learn here!</h1>
-        <p data-aos="fade-up">Learn modern web development in access.</p>
+        <h1 data-aos="fade-up">THE SKILLS!</h1>
+        <p className="skillspara" data-aos="fade-up">Learn modern web development in access.</p>
      <Img src={Img1} data-aos="fade-up"/>
         
         
