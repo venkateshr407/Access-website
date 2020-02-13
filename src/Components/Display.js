@@ -26,6 +26,7 @@ export default function Display() {
                     Explore 
                 </Button>
                 <img src={theImg} data-aos="fade-up"></img>
+                <br/>
 
                 </div>
 

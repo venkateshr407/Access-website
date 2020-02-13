@@ -10,8 +10,9 @@ const Styles = styled.div `
 .navbar-brand, .navbar-nav .nav-link{
   color: #3f51b5;
   font-weight:bold;
-  font-size:30px;
-  font-family: "Google Sans", "Roboto", Arial, Helvetica, sans-serif;
+  font-size:24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   &:hover{
     color:black;
   }

@@ -5,9 +5,9 @@ import Img2 from "../images/career-advencement.png";
 
 export default function About() {
     return (
-       <section class="myg-hero-image" data-aos="fade-up">
-            <header class="myg-hero-image__content" data-aos="fade-up" >
-                <div class="myg-hero-image__content--container" data-aos="fade-up">
+       <section class="myg-hero-image">
+            <header class="myg-hero-image__content" >
+                <div class="myg-hero-image__content--container">
                     <h1 class="title" data-aos="fade-up">What is Access ?</h1>
                     <div class="titles" data-aos="fade-up">
                         <p data-aos="fade-up"><Img src={Img1} data-aos="fade-up"></Img>Access is an initiative started by a bunch of professional's from various disciplines (engineering/ education/ finance) with 
@@ -17,9 +17,9 @@ export default function About() {
                 </div>
                 
 <br/>
-                <header class="myg-hero-image__content" data-aos="fade-up" >
-                <div class="myg-hero-image__content--container" id="skills">
-                    <h1 class="title" id="skills" data-aos="fade-up">Why Access ? </h1>  
+                <header class="myg-hero-image__content">
+                <div class="myg-hero-image__content--container">
+                    <h1 class="title" id="skills" >Why Access ? </h1>  
                     <div class="titles">
                         <p data-aos="fade-up">The courses under <span class="access">access</span> are carefully crafted and heavily foused on helping students to build real world skils in the opted area interest. These courses are taught by industry professional's and the curriculum is always updated and maintained up to the industry standards.</p>
                         <p data-aos="fade-up">Although the aim of <span class="access">access</span> is to provide courses across all the disciplines, for the initial offering we have introduced two courses in ComputerScience /Programming /Development.</p>

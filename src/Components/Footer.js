@@ -14,7 +14,7 @@ export default class Footer extends Component {
 
                         <h1>Technologies</h1>
                         <ul>
-                            <li><a href="https://github.com/">Github</a></li>
+                            <li><a  href="https://github.com/">Github</a></li>
                             <li><a href="https://www.w3.org/">HTML5 and CSS3</a></li>
                             <li><a href="https://www.javascript.com/">Javascript</a></li>
                             <li><a href="https://reactjs.org/">React.js</a></li>
@@ -28,7 +28,7 @@ export default class Footer extends Component {
                     
                     <div className="footer-about">
                         <h1 data-aos="fade-up">Developed by:</h1>
-                        <p data-aos="fade-up"><span class="access"><a href="https://venkycreations.netlify.com/">Venkatesh.R</a></span>
+                        <p data-aos="fade-up"><span class="access"><a  href="https://venkycreations.netlify.com/" className="footer-dev">Venkatesh.R</a></span>
                         <br/>Access-101 Student</p>
                      <span className="move-up"><a class="btn" href="#"><i class="fa fa-arrow-circle-up fa-2x " aria-hidden="true"></i></a></span>
                     </div>
