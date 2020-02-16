@@ -1,3 +1,3 @@
 ## Access website 
 
-htttps://accesstech.netlfiy.com/
+https://accesstech.netlify.com/
