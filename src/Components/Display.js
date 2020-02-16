@@ -11,9 +11,9 @@ export default function Display() {
                 <div class="rc-HeroBanner__text-container ">
                 <header className="typed">
         <p>Access for   <Typical 
-        steps={['future!',1000,  
-                'learn!',1000,
-                'tomorrow!',1000,
+        steps={['future!',1500,  
+                'learn!',1500,
+                'tomorrow!',1500,
       ]}
         loop={Infinity}
         wrapper="b"

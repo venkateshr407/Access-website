@@ -5,22 +5,18 @@ function Aboutaccess() {
     return (
         <div class="gain" data-aos="fade-up">
      
-<div class="skills" id="about" data-aos="fade-up">
-        <h1 data-aos="fade-up">THE SKILLS!</h1>
-        <p className="skillspara" data-aos="fade-up">Learn modern web development in access.</p>
-     <Img src={Img1} data-aos="fade-up"/>
-        
-        
-<div class="grid-container">
-    {/* <div class="wrapper"> */}
+        <div class="skills" id="about" data-aos="fade-up">
+            <h1 data-aos="fade-up">THE SKILL'S!</h1>
+            <p className="skillspara" data-aos="fade-up">Learn modern web development in access.</p>
+            <Img src={Img1} data-aos="fade-up"/>
+        <div class="grid-container">
         <div class="one" data-aos="fade-up">
             <h2>Github</h2>
-            <p>GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. 
-                GitHub is a open source community platform. </p>
+            <p>GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. </p>
         </div>
         <div class="two" data-aos="fade-up">
             <h2>HTML5 & CSS3</h2>
-            <p>HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as CSS and scripting languages such as JavaScript.</p>
+            <p>HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as CSS.</p>
         </div>
         <div class="three" data-aos="fade-up">
             <h2>Javascript</h2>
