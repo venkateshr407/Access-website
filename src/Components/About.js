@@ -8,7 +8,7 @@ export default function About() {
        <section class="myg-hero-image">
             <header class="myg-hero-image__content" >
                 <div class="myg-hero-image__content--container">
-                    <h1 class="title" data-aos="fade-up">What is Access ?</h1>
+                    <h1 class="title">What is Access ?</h1>
                     <div class="titles" data-aos="fade-up">
                         <p data-aos="fade-up"><Img src={Img1} data-aos="fade-up"></Img>Access is an initiative started by a bunch of professional's from various disciplines (engineering/ education/ finance) with 
                         only one goal <span class="access" data-aos="fade-up">"Make technology education accessible in rural area's".</span></p>
