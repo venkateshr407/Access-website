@@ -4,11 +4,11 @@ export default function Roadmap() {
     return (
         <div>
              <div class="skills-roadmap">
-        <h1 data-aos="fade-up">ROADMAP</h1>
+        <h1 data-aos="fade-up">Roadmap</h1>
         <p data-aos="fade-up">We help you to build your career !</p>
         </div>
             <div class="timeline-container" >
-                <div class="left text-wrapper" data-aos="fade-up">
+                <div class="right text-wrapper" data-aos="fade-up">
                     <div class="text">
                         <h3>Tools and Setup</h3>
                         <p>VSCode, Slack, Git,Github,Live-Server</p>
@@ -32,7 +32,7 @@ export default function Roadmap() {
                         <p>Learn how to manage your projects using git.</p>
                     </div>
                 </div>
-                <div class="left text-wrapper" data-aos="fade-up">
+                <div class="right text-wrapper" data-aos="fade-up">
                     <div class="text">
                         <h3 class="main-1">Masterclass - 1</h3>
                         <p>let's build together.</p>
@@ -56,7 +56,7 @@ export default function Roadmap() {
                         <p>HTTP, GET, POST, PUT, DELETE, PATCH.</p>
                     </div>
                 </div>
-                <div class="left text-wrapper" data-aos="fade-up">
+                <div class="right text-wrapper" data-aos="fade-up">
                     <div class="text">
                         <h3 class="main-2">Masterclass - 2</h3>
                         <p>let's build together</p>

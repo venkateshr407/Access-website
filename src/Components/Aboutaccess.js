@@ -6,9 +6,7 @@ function Aboutaccess() {
         <div class="gain" data-aos="fade-up">
      
         <div class="skills" id="about" data-aos="fade-up">
-            <h1 data-aos="fade-up">THE SKILL'S!</h1>
-            <p className="skillspara" data-aos="fade-up">Learn modern web development in access.</p>
-            <Img src={Img1} data-aos="fade-up"/>
+            <h1 data-aos="fade-up">Skill's!</h1>            <Img src={Img1} className="skillsimage" data-aos="fade-up"/>
         <div class="grid-container">
         <div class="one" data-aos="fade-up">
             <h2>Github</h2>
