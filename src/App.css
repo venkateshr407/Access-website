@@ -28,7 +28,7 @@ html{
 
 
 .typed p{
-  padding: 1rem;
+  padding-top: 1rem;
   text-align: center;
   color: white;
   
@@ -46,6 +46,7 @@ html{
   font-weight: thin;
   margin-bottom: 1rem;
   font-size: 1rem;
+  margin-right: 3rem;
 }
 .container-head  img{
     width: 100%;
@@ -447,12 +448,15 @@ box-shadow:  5px 5px 10px #e0e0e0,
       }
       .landing-text{
 
-        font-size: 3rem;
-        text-align: center;
+        font-size: 4rem;
+        text-align: left;
+        margin-right: 1rem;
       }
       .landing-para{
     font-size: 1.5rem;
-    text-align: center;
+    text-align: left;
+    margin-right: 2rem;
+
       }
       .title {
         font-size: 30px;
@@ -686,6 +690,9 @@ box-shadow:  5px 5px 10px #e0e0e0,
       margin: 4rem;
       text-align: center;
       margin-top: 0;
+    }
+    .landing-para{
+      margin-right: 10rem;
     }
     .title {
       font-size: 35px;
