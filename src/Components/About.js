@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Img from 'react-image'
 import Img1 from "../images/Engineering.jpg";
-import Img2 from "../images/display.png";
+import Img2 from "../images/worktogether.png";
 import Img3 from "../images/codeandgit.png";
 
 export default class About extends Component {

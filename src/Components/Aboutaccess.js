@@ -1,6 +1,6 @@
 import React from 'react'
 import Img from 'react-image'
-import Img1 from "../images/app-marketing.png";
+import Img1 from "../images/languages.png";
 function Aboutaccess() {
     return (
         <div class="gain" data-aos="fade-up">
