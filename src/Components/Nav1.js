@@ -5,12 +5,14 @@ import styled from 'styled-components';
 
 const Styles = styled.div `
 .navbar{
-  background-color: #3f51b5;
+  background: #00c6ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .navbar-brand, .navbar-nav .nav-link{
-  color: #3f51b5;
+  color: white;
   font-weight:bold;
-  font-size:24px;
+  font-size:20px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   &:hover{
@@ -21,7 +23,7 @@ const Styles = styled.div `
 
  const Nav1 = () =>(
   <Styles>
-    <Navbar bg="light" expand="lg">
+    <Navbar  expand="lg">
       <Navbar.Brand href="/"> Access</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

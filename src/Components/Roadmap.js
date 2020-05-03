@@ -7,6 +7,7 @@ export default function Roadmap() {
         <h1 data-aos="fade-up">Roadmap</h1>
         <p data-aos="fade-up">We help you to build your career !</p>
         </div>
+        <section className="roadmapsection">
             <div class="timeline-container" >
                 <div class="right text-wrapper" data-aos="fade-up">
                     <div class="text">
@@ -73,9 +74,12 @@ export default function Roadmap() {
                         <h3>Resume building & mock interviews</h3>
                         <p>Fix common problems in your resume.</p>
                     </div>
+                    
                 </div>
+               
 
             </div>
+            </section>
         </div>
     )
 }

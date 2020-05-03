@@ -4,12 +4,15 @@ import theImg2 from '../images/tajammul sir.jpg';
 import theImg3 from '../images/karthik sir.jpg';
 
 
+
 function Team() {
     return (
-            <div className="skills" data-aos="fade-up">
-                <h1>Our team</h1>
+            <div className="team" id="team" data-aos="fade-up">
+                <section className="ourteam">
+                <h1>Meet our team</h1>
+                </section>
                 <br/>
-            <section className="wrapper" data-aos="fade-up">
+            <section className="wrappers" data-aos="fade-up">
                 <div className="grid-card" data-aos="fade-up">
                     <div className="cards" data-aos="fade-up">
                         <img src={theImg3}/>

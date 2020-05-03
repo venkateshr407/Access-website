@@ -5,7 +5,8 @@ import About from './Components/About';
 import Aboutaccess from './Components/Aboutaccess';
 import Roadmap from './Components/Roadmap';
 import Team from './Components/Team';
-import Footer from './Components/Footer'
+import Footer from './Components/Footer';
+import Quote from './Components/Quote';
 
 import './App.css';
 
@@ -19,6 +20,7 @@ function App() {
         <Aboutaccess/>
         <Roadmap/>
         <Team/>
+        <Quote/>
         <Footer/>
       </div>
     );
