@@ -44,7 +44,7 @@ export default class About extends Component {
                 </div>
                 <section className="container-gain">
                 <div className="todays">
-                    <h1 className="demand">Gain the skill's you need to start your career.</h1>
+                    <h1 className="demand">Gain the skill's, Which you need to start your career.</h1>
                     <p>Just want to try something new.</p>
                     <img src={Img2} className="skillimage"/>
                     </div>
