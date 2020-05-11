@@ -71,6 +71,11 @@ html{
     font-weight: 800;
     margin: 1rem;
 }
+.title-1{
+  font-size: 25px;
+    font-weight: 800;
+    margin: 1rem;
+}
 .titles-grid img{
     height: 100%;
     display: flex;
@@ -104,7 +109,7 @@ html{
   margin: 0;
   width: 100%;
   padding: 2rem;
-  background-color: rgb(209, 209, 209);
+  background-color: rgb(214, 214, 214);
 }
 .list{
     list-style-type: disc;
@@ -165,11 +170,12 @@ color: rgb(228, 228, 228);
   margin: 0;
 }
 .skills h1{
-    text-align: center;
+    text-align: left;
     font-weight: 800;
     font-size: 2rem;
     padding: 1rem;
-    color: #252525;
+    text-transform: uppercase;
+    color: #7a7a7a;
 }
 .skills h2{
     font-weight: 800;
@@ -307,13 +313,14 @@ box-shadow:  10px 10px 20px #949494,
    }
    .text{
     padding: 15px 15px 15px 18px;
-    background-color: rgb(224, 220, 220);
+    background-color: #1d1d1d;
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
   }
    .text {
      width: 70vw;
      margin: 2vh;
+     color: white;
      padding: 1vh;
    }
    .text h3{
@@ -566,14 +573,23 @@ box-shadow:  5px 5px 10px #e0e0e0,
       }
       .titles {
         display: grid;
-        grid-template-columns: 60% 20%;
+        grid-template-columns: 30% 80%;
         grid-gap: 1rem;
-        margin-right: 1rem;
+        margin-left:1rem;
       }
-      .titles::before{
-        line-height: 5rem;
-        font-size: 5rem;
+      .titles p{
+        margin-left: 5rem;
       }
+      .section-flex {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+	
+      }
+      
       .titles-grid img{
         height: auto;
         width:50%;
@@ -804,7 +820,6 @@ box-shadow:  5px 5px 10px #e0e0e0,
     }
     .titles img{
       height: auto;
-      width: 50%;
       float: right;
       margin: 0 auto;
     }
@@ -829,7 +844,7 @@ box-shadow:  5px 5px 10px #e0e0e0,
 }
 .why{
   height: auto;
-  width: 50vw;
+  width:auto;
 }
 .sections{
   display: grid;
@@ -839,9 +854,11 @@ box-shadow:  5px 5px 10px #e0e0e0,
 }
 .one{
   width: 100%;
+  height: auto;
 }
 .two{
   width: 100%;
+  height: auto;
 }
 .img-section{
   width: 100%;
