@@ -5,8 +5,9 @@
    
 }
 p{
-    font-family: 'Quicksand', sans-serif;
-    color: black;
+  font-family: 'Lato', sans-serif;
+    color: #020202;
+    font-weight:300;
 }
 html{
   scroll-behavior: smooth;
@@ -59,7 +60,12 @@ html{
 .about-1{
     margin-top: 3rem;
 }
-
+.why{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   margin: 0 auto;
+}
 .title{
     font-size: 25px;
     font-weight: 800;
@@ -71,8 +77,6 @@ html{
     align-items: center;
     width: 80vw;
     float: left;
-    margin-bottom: 2rem;
-    margin-left: 1rem;
 }
 .codetogit{
   margin-left: 1rem;
@@ -96,15 +100,23 @@ html{
 }
 .accesspara{
   font-size: 15px;
+  padding: 1rem;
+  margin: 0;
+  width: 100%;
+  padding: 2rem;
+  background-color: rgb(209, 209, 209);
 }
 .list{
     list-style-type: disc;
     margin-left: 2rem;
+    margin-top: 2rem;
    
 }
 .list h3{
     font-weight: 800;
     font-size: 25px;
+    color: #7a7a7a;
+    text-transform: uppercase;
 }
 .container-gain{
   background-color: #03105a;
@@ -143,11 +155,8 @@ color: rgb(228, 228, 228);
     margin-top: 0rem;
     /* border-top-left-radius: 30px 25px;
     border-top-right-radius: 30px 25px; */
-    /* background-color: #37bda6; */
+    background-color: #dadada;
     background-size: cover;
-    background: #d89d55;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #ee6b46, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #e2871e, #e6a139); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
 .skills{
@@ -158,17 +167,50 @@ color: rgb(228, 228, 228);
 .skills h1{
     text-align: center;
     font-weight: 800;
-    color: #fdfdfd;
+    font-size: 2rem;
+    padding: 1rem;
+    color: #252525;
 }
 .skills h2{
     font-weight: 800;
-    color: #ffffff;
+    color: #585757;
+    /* display: none; */
 }
 .skills p{
-  color: white;
-  font-weight: 600;
-  margin-bottom: 3rem;
+  color: black;
+  font-weight: lighter;
+  margin-bottom: 1rem;
 }
+.svg-logo{
+ width: 30%;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+}
+.sections{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 2rem;
+  margin-top: 2rem;
+}
+.one  {
+  
+  background-color:rgb(231, 231, 231);
+
+}
+
+.two{
+  
+  background-color:rgb(231, 231, 231);
+}
+
+.img-section{
+  width: 100%;
+  height: 40vh;
+  padding: 1rem;
+  /* background-color: rgb(228, 228, 228); */
+ }
 .skillspara{
     text-align: center;
 }
@@ -186,23 +228,26 @@ color: rgb(228, 228, 228);
 .grid-container > div{
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto;
+    grid-template-rows: auto auto;
     
     margin: 1rem;
     padding: 2rem;
     margin-bottom: 2rem;
-/* background: #ef610c;
-box-shadow:  20px 20px 17px #cb520a, 
-             -20px -20px 17px #ff700e; */
-             border-radius: 20px;
-background: #e2871e;
-box-shadow:  5px 5px 10px #b86833, 
-             -5px -5px 10px #ffb057;
-    /* background-color: rgb(214, 213, 213); */
+    border-radius: 11px;
+background: #e0e0e0;
+box-shadow:  10px 10px 20px #949494, 
+             -10px -10px 20px #ffffff;
 }
 .grid-container>div:hover{
-  background-color: #fc9e24;
+  background-color: #d8d7d7;
   transition: all 5s ease-in;
+}
+.roadmapsection{
+  display: grid;
+  grid-template-columns: auto;
+}
+.roadmapimg{
+  display: none;
 }
 .timeline-container{
     width: 1vh;
@@ -227,7 +272,7 @@ box-shadow:  5px 5px 10px #b86833,
     background-color: inherit;
     width: 50%;
     box-sizing: border-box;
-    margin:50px 0;
+    margin:20px 0;
    }
 .text-wrapper::after{
   content: '';
@@ -235,18 +280,22 @@ box-shadow:  5px 5px 10px #b86833,
   width: 20px;
   height: 20px;
   right: 8px;
-  background-color: #033cb9;
+  background-color: rgb(38, 0, 255);
   top: 15PX;
   border-radius: 50%;
   z-index:1;
 }
    .skills-roadmap h1{
-   text-align: center;
+   text-align: left;
+   text-transform: uppercase;
    margin-top: 5rem;
+   margin-left: 2rem;
    font-weight: 800;
+   color: #7a7a7a;
    }
    .skills-roadmap p{
-    text-align: center;
+    text-align: left;
+    margin-left: 2rem;
    }
    .text{
     padding: 15px 15px 15px 18px;
@@ -262,7 +311,7 @@ box-shadow:  5px 5px 10px #b86833,
    .text h3{
     margin-top:10px;
     margin-left: 1vh;
-    color:#033cb9;
+    color:rgb(38, 0, 255);
     font-size:16px;
   }
    .text p{
@@ -274,18 +323,19 @@ box-shadow:  5px 5px 10px #b86833,
      font-family: 'Montserrat', sans-serif;
    }
    .text .main-1  {
-     color: red;
+     color: tomato;
      font-weight: bold;
    }
    .text .main-2  {
-    color: red;
+    color: tomato;
     font-weight: bold;
   }
-  .team h1{
-    text-align: center;
+  .ourteam h1{
+    text-align: left;
     font-weight: 800;
-    color:white;
-    margin: 0 auto;
+    text-transform: uppercase;
+    color:#7a7a7a;
+    margin: 2rem;
 }
   .wrapper{
     display: grid;
@@ -294,6 +344,25 @@ box-shadow:  5px 5px 10px #b86833,
     grid-gap: 20px;
   
   }
+  .certificate h1{
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color:#7a7a7a;
+    margin: 2rem;
+  }
+  .grid-certificate{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    margin: 1rem;
+    margin-top: 2rem;
+  }
+  .grid-certificate p{
+    margin: 1rem;
+    font-size: 1rem;
+  }
+
   .grid-card{
       display: flex;
       flex-direction: column;
@@ -325,10 +394,11 @@ box-shadow:  5px 5px 10px #e0e0e0,
         font-family: 'Montserrat', sans-serif;
         margin-bottom: 1rem;
       }
+     
       .cards h1{
         margin: 0 auto;
         padding: 10px;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         color: rgb(33, 4, 194);
@@ -336,7 +406,7 @@ box-shadow:  5px 5px 10px #e0e0e0,
       .cards p{
         margin: 0 auto;
         padding: 0px;
-        font-size: .7rem;
+        font-size: .6rem;
         color:rgb(10, 10, 10);
         font-weight: 800;
       }
@@ -346,13 +416,7 @@ box-shadow:  5px 5px 10px #e0e0e0,
       padding: 10px;
       font-size: 20px;
     }
-    .ourteam{
-      background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
-      height: auto;
-      padding: 5rem;
-      color: white;
-      
-    }
+ 
     .team-head{
       font-family: 'Montserrat', sans-serif;
     }
@@ -486,12 +550,31 @@ box-shadow:  5px 5px 10px #e0e0e0,
         font-size: 30px;
         margin-top: 5rem;
       }
+      .title-1 {
+        font-size: 35px;
+        margin-top: 2rem;
+        font-weight: 800;
+      }
+      .titles {
+        display: grid;
+        grid-template-columns: 60% 20%;
+        grid-gap: 1rem;
+        margin-right: 1rem;
+      }
+      .titles::before{
+        line-height: 5rem;
+        font-size: 5rem;
+      }
       .titles-grid img{
         height: auto;
-        width: 50%;
+        width:50%;
         float: right;
-        margin-bottom: 2rem;
-    }
+        margin: 0 auto;
+      }
+      .why{
+        width: 35vw;
+        margin-top: 3rem;
+      }
     .titles-grid p{
         font-size: 16px;
     }
@@ -499,11 +582,30 @@ box-shadow:  5px 5px 10px #e0e0e0,
       display: flex;
       flex-direction: unset;
     }
+    .list{
+      display: grid;
+      grid-template-columns: auto;
+      grid-gap: 2rem;
+      padding: 2rem;
+      margin: 0;
+      /* background-color: rgb(199, 199, 199); */
+    }
+    .list h3{
+      color:#7a7a7a;
+      text-transform: uppercase;
+      font-family: 'lato',sans-serif;
+    }
+    .list li{
+      margin-left: 3rem;
+    }
     .access{
         font-weight: 800;
     }
     .accesspara{
       font-size: 16px;
+      color: #252525;
+      padding: 2rem;
+      margin-top: 1rem;
     }
     .demand{
         font-size: 35px;
@@ -520,6 +622,38 @@ box-shadow:  5px 5px 10px #e0e0e0,
         height: auto;
         margin: 0 auto;
     }
+    .skills-roadmap h1{
+      font-size: 4rem;
+    }
+    .skills-roadmap p{
+      margin-bottom: 3rem;
+    }
+    .certificate h1{
+      font-size: 4rem;
+    }
+    .ourteam h1{
+      font-size: 4rem;
+  
+    }
+    .list{
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+      grid-gap: 2rem;
+      margin-top: 2rem;
+    }
+    
+    .img-section{
+      display: flex;
+      align-items: center;
+      width: auto;
+      height: 40vh;
+      margin: 0 auto;
+      padding: 2rem;
+      /* background-color: rgb(228, 228, 228); */
+     }
+
    
    .wrappers {
       display: grid;
@@ -534,7 +668,8 @@ box-shadow:  5px 5px 10px #e0e0e0,
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto;
-        margin: 2rem;
+        margin: 1rem;
+        padding: 1rem;
     }
     .grid-container-footer{
       display: grid;
@@ -544,11 +679,23 @@ box-shadow:  5px 5px 10px #e0e0e0,
       grid-gap: 0;
   }
   .roadmapsection{
-    display: flex;
-    margin-left: 5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
+    padding: 2rem;
   }
 
+ .skills-roadmaps{
+  background: #56CCF2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+   padding: 2rem;
+ }
+ .skills-roadmaps h1{
+   color: white;
+ }
+ .skills-roadmaps p{
+  color: white;
+}
     .timeline-container::after{
         height: auto;
     }
@@ -557,6 +704,7 @@ box-shadow:  5px 5px 10px #e0e0e0,
     }
     .text p{
         font-size: 20px;
+        color: #7a7a7a;
     }
     .wrapper{
         display: grid;
@@ -564,6 +712,26 @@ box-shadow:  5px 5px 10px #e0e0e0,
         grid-template-rows: auto;
         grid-gap: 2px;
       }
+      .certificate h1{
+        margin:2rem 3rem 2rem 2rem;
+      }
+      .grid-certificate{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        grid-gap: 20px;
+        padding: 1rem;
+      }
+      .grid-certificate img{
+        width: 100%;
+        padding: 3rem;
+      }
+      .grid-certificate p{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        padding-top: 3rem;
+      }
+
       .cards img{
           width: 20vw;
           margin: 0;
@@ -607,7 +775,7 @@ box-shadow:  5px 5px 10px #e0e0e0,
         align-content: center;
      }
   } */
-  @media only screen  and (min-width:900px) and (max-width:1200px){
+  @media only screen  and (min-width:900px) and (max-width:1000px){
     .maintext{
       margin: 4rem;
       text-align: center;
@@ -650,6 +818,17 @@ box-shadow:  5px 5px 10px #e0e0e0,
     height: auto;
     margin: 0 auto;
 }
+.why{
+  height: auto;
+  width: 50vw;
+}
+.sections{
+  width: 20%;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
     .grid-container{
       display: grid;
       grid-template-columns: auto auto ;
@@ -668,7 +847,7 @@ box-shadow:  5px 5px 10px #e0e0e0,
     .grid-container p{
       font-size: 20px;
       margin-top: 0;
-      font-weight: 600;
+      font-weight: 300;
     }
     .text{
       position: relative;
@@ -714,7 +893,7 @@ box-shadow:  5px 5px 10px #e0e0e0,
     }
   }
 
-  @media only screen  and (min-width:1201px) and (max-width:2500px){
+  @media only screen  and (min-width:1101px) and (max-width:2500px){
     .maintext{
       margin: 4rem;
       text-align: center;
@@ -723,9 +902,11 @@ box-shadow:  5px 5px 10px #e0e0e0,
     .title {
       font-size: 35px;
       margin-top: 10rem;
+     line-height: 1rem;
     }
     .titles p{
       font-size: 25px;
+      margin-top: 3rem;
     }
     .landing-text{
       font-size: 5rem;
@@ -735,19 +916,24 @@ box-shadow:  5px 5px 10px #e0e0e0,
       font-size: 2rem;
       margin-right: 6rem;
     }
+    .roadmapimg{
+      display: flex;
+    }
   
  .titles-grid{
-   display: flex;
-   justify-content: flex-start;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto ;
+  align-items: flex-start;
  }
   .titles-grid img{
-    max-height: 50vh;
-    max-width: auto;
-
-  }
+    min-height: fit-content;
+    width: 80%;
+    }
   .titles-grid p{
     font-size: 25px;
-    margin-bottom: 5rem;
+    margin-right: 5rem;
+
   }
   .codetogit{
     display: none;
@@ -768,6 +954,10 @@ box-shadow:  5px 5px 10px #e0e0e0,
     height: auto;
     margin: 0 auto;
 }
+.sections{
+  display: grid;
+  grid-template-columns: auto auto;
+}
     .grid-container{
       display: grid;
       grid-template-columns: auto auto ;
@@ -777,13 +967,14 @@ box-shadow:  5px 5px 10px #e0e0e0,
     }
     .grid-container>div{
       margin: 2rem;
-      margin-bottom: 3rem;
+      margin-bottom: 1rem;
     }
 
     .skills h2{
       margin-top: 0rem;
       
-    }.list h3{
+    }
+    .sections h3{
       font-size: 30px;
     }
     .accesspara{
@@ -792,12 +983,17 @@ box-shadow:  5px 5px 10px #e0e0e0,
     }
     .grid-container p{
       font-size: 20px;
+      font-weight: 300;
       margin-top: 0;
-      font-weight: 600;
     }
     .text{
       position: relative;
-      width: 60vw;
+      width: 30vw;
+    }
+    .roadmapsection{
+      display: grid;
+      grid-template-columns: 50% auto;
+      grid-template-rows: auto;
     }
     .timeline-container::after{
       height: auto;
@@ -807,6 +1003,9 @@ box-shadow:  5px 5px 10px #e0e0e0,
       grid-template-columns: auto auto auto auto;
       grid-template-rows: auto;
       grid-gap: 1rem;
+    }
+    .certificate-para{
+      padding: 5rem;
     }
     .cards{
       width: auto;

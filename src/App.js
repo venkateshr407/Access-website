@@ -4,6 +4,7 @@ import Display from './Components/Display';
 import About from './Components/About';
 import Aboutaccess from './Components/Aboutaccess';
 import Roadmap from './Components/Roadmap';
+import Certificate from './Components/Certificate'
 import Team from './Components/Team';
 import Footer from './Components/Footer';
 import Quote from './Components/Quote';
@@ -19,6 +20,7 @@ function App() {
         <About/>
         <Aboutaccess/>
         <Roadmap/>
+        <Certificate/>
         <Team/>
         <Quote/>
         <Footer/>

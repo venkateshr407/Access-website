@@ -9,7 +9,7 @@ function Team() {
     return (
             <div className="team" id="team" data-aos="fade-up">
                 <section className="ourteam">
-                <h1>Meet our team</h1>
+                <h1>our mentour's</h1>
                 </section>
                 <br/>
             <section className="wrappers" data-aos="fade-up">

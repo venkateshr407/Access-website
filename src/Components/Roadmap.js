@@ -1,13 +1,16 @@
 import React from 'react'
+import RoadmapImg from '../logo/roadmap1.png'
 
 export default function Roadmap() {
     return (
-        <div>
+        <div className="skills-roadmaps">
              <div class="skills-roadmap">
         <h1 data-aos="fade-up">Roadmap</h1>
         <p data-aos="fade-up">We help you to build your career !</p>
         </div>
         <section className="roadmapsection">
+            <img src={RoadmapImg} className="roadmapimg"/>
+
             <div class="timeline-container" >
                 <div class="right text-wrapper" data-aos="fade-up">
                     <div class="text">
