@@ -109,7 +109,7 @@ html{
   margin: 0;
   width: 100%;
   padding: 2rem;
-  background-color: rgb(214, 214, 214);
+  color: #383838;
 }
 .list{
     list-style-type: disc;
@@ -171,6 +171,9 @@ background: linear-gradient(to left, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Fi
   
 
 }
+.teach-skills h1 {
+  color: rgb(143, 144, 214);
+}
 
 .gain{
     margin: 0rem;
@@ -178,7 +181,7 @@ background: linear-gradient(to left, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Fi
     /* border-top-left-radius: 30px 25px;
     border-top-right-radius: 30px 25px; */
     /* background-color: #dadada; */
-    background-color: rgba(227, 255, 250, 1);
+    background-color: rgb(219, 224, 255);
     background-size: cover;
     
 }
@@ -192,18 +195,17 @@ background: linear-gradient(to left, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Fi
     font-weight: 800;
     font-size: 2rem;
     padding: 1rem;
+    margin-left: 1rem;
     text-transform: uppercase;
-    color: #7a7a7a;
 }
 .skills h2{
     font-weight: 800;
     /* color: #585757; */
     /* display: none; */
-    color: #01B1AF;
+    color: rgb(47, 54, 54);
 }
 .skills p{
-  /* color: black; */
-  color: #01B1AF;
+  color: #7a7a7a;
   font-weight: lighter;
   margin-bottom: 1rem;
 }
@@ -220,16 +222,16 @@ background: linear-gradient(to left, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Fi
   grid-gap: 2rem;
   margin-top: 2rem;
 }
-.one  {
+/* .one  {
   
-  background-color:whitesmoke;
+  background-color:rgb(18, 128, 73);
 
 }
 
 .two{
   
-  background-color:whitesmoke;
-}
+  background-color:rgb(9, 97, 70);
+} */
 
 .img-section{
   width: 100%;
@@ -260,12 +262,12 @@ background: linear-gradient(to left, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Fi
     padding: 2rem;
     margin-bottom: 2rem;
     border-radius: 11px;
-background:  rgba(227, 255, 250, 1);
+background:  rgb(223, 223, 250);
 box-shadow:  10px 10px 20px #949494, 
              -10px -10px 20px #ffffff;
 }
 .grid-container>div:hover{
-  background-color: #d8d7d7;
+  background-color: #d9ccf8;
   transition: all 5s ease-in;
 }
 .roadmapsection{
@@ -718,7 +720,7 @@ box-shadow:  5px 5px 10px #e0e0e0,
 }
 
 .teach-skills h1 {
-  color: #01B1AF;
+  color: rgb(143, 144, 214);
   font-weight: normal;
   text-transform: none;
   font-size: 2rem;
