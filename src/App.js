@@ -8,7 +8,7 @@ import Certificate from './Components/Certificate'
 import Team from './Components/Team';
 import Footer from './Components/Footer';
 import Quote from './Components/Quote';
-
+import Teach from './Components/Wewillteach';
 import './App.css';
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
         <Nav1/>
         <Display/> 
         <About/>
+        <Teach/>
         <Aboutaccess/>
         <Roadmap/>
         <Certificate/>

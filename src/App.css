@@ -8,7 +8,7 @@ p{
   font-family: 'Lato', sans-serif;
     color: #020202;
     font-weight:300;
-}
+  }
 html{
   scroll-behavior: smooth;
 }
@@ -127,6 +127,28 @@ html{
   background-color: #03105a;
   background-size: cover;
 
+}
+.container-teach{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  background-color: rgba(227, 255, 250, 1);
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.teach img{
+  width: 100%;
+  padding: 3rem;
+}
+.teach h1 {
+  color: #01B1AF;
+  margin: 0rem 2rem 0 2rem;
+}
+.teach p{
+  color: #01B1AF;
+  margin-top: 1rem;
+  font-size: 16px;
+  margin-bottom: 5rem;
 }
 .todays{
     text-align: center;
@@ -294,7 +316,7 @@ box-shadow:  10px 10px 20px #949494,
 .skills-roadmaps{
   background: #56CCF2;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #2F80ED, #56CCF2); 
   padding-bottom: 3rem;
 }
    .skills-roadmap h1{
@@ -313,7 +335,7 @@ box-shadow:  10px 10px 20px #949494,
    }
    .text{
     padding: 15px 15px 15px 18px;
-    background-color: #1d1d1d;
+    /* background-color: #1d1d1d28; */
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
   }
@@ -334,7 +356,7 @@ box-shadow:  10px 10px 20px #949494,
      font-weight: 300;
      font-size: 12px;
      margin-top: 2px;
-     color:#3f4041;
+     color:#ffffff;
      font-family: 'Montserrat', sans-serif;
    }
    .text .main-1  {
@@ -388,21 +410,21 @@ box-shadow:  10px 10px 20px #949494,
       align-content: center;
     }
   .cards img{
-    width:40vw;
-    padding-top: 10px;
+    object-position: 50% 50%;
+    width: 144px;
+    height: 148px;
+    object-fit: cover;
     border-radius: 100%;
-    margin-right: 1rem;
-    margin-top: 20px;
     filter: grayscale(100%);
     }
     .cards{
-        border-radius: 50px;
+        /* border-radius: 50px;
         background: #f3f3f3;
         border-radius: 0px;
-background: #ffffff;
+background: #3b2d2d;
 box-shadow:  5px 5px 10px #e0e0e0, 
-             -5px -5px 10px #ffffff;
-        width: 40vh;
+             -5px -5px 10px #ffffff; */
+        /* width: 40vh; */
         margin:0 auto;
         text-align: center;
         border-radius: 10px;
@@ -416,8 +438,8 @@ box-shadow:  5px 5px 10px #e0e0e0,
         padding: 10px;
         font-size: 1.5rem;
         font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
-        color: rgb(33, 4, 194);
+        font-weight: 500;
+        color: #0f0f0f;
       }
       .cards p{
         margin: 0 auto;
@@ -578,7 +600,7 @@ box-shadow:  5px 5px 10px #e0e0e0,
         margin-left:1rem;
       }
       .titles p{
-        margin-left: 5rem;
+        padding: 3rem 0 3rem 3rem;
       }
       .section-flex {
         display: flex;
@@ -591,8 +613,7 @@ box-shadow:  5px 5px 10px #e0e0e0,
       }
       
       .titles-grid img{
-        height: auto;
-        width:50%;
+        width: 50%;
         float: right;
         margin: 0 auto;
       }
@@ -602,6 +623,7 @@ box-shadow:  5px 5px 10px #e0e0e0,
       }
     .titles-grid p{
         font-size: 16px;
+        /* padding: 0rem 3em 3em 0; */
     }
     .titles-grid{
       display: flex;
@@ -678,11 +700,24 @@ box-shadow:  5px 5px 10px #e0e0e0,
       padding: 2rem;
       /* background-color: rgb(228, 228, 228); */
      }
-
-   
+.teach img{
+  width: 50vw;
+  object-fit: cover;
+}
+.teach p{
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  margin-top: 2rem;
+}
+  .teach{
+     display: grid;
+     grid-template-columns: auto auto;
+     grid-template-rows: auto;
+   }
    .wrappers {
       display: grid;
-      grid-template-columns: auto auto;
+      grid-template-columns: auto auto auto;
       grid-template-rows: auto;
     }
     .skillsimage{
@@ -729,7 +764,6 @@ box-shadow:  5px 5px 10px #e0e0e0,
     }
     .text p{
         font-size: 20px;
-        color: #7a7a7a;
     }
     .wrapper{
         display: grid;
@@ -738,7 +772,7 @@ box-shadow:  5px 5px 10px #e0e0e0,
         grid-gap: 2px;
       }
       .certificate h1{
-        margin:2rem 3rem 2rem 2rem;
+        margin:4rem 3rem 2rem 2rem;
       }
       .grid-certificate{
         display: grid;
@@ -749,7 +783,7 @@ box-shadow:  5px 5px 10px #e0e0e0,
       }
       .grid-certificate img{
         width: 100%;
-        padding: 3rem;
+        object-fit: cover;
       }
       .grid-certificate p{
         font-size: 1.5rem;
@@ -758,14 +792,28 @@ box-shadow:  5px 5px 10px #e0e0e0,
       }
 
       .cards img{
-          width: 20vw;
+        width: 144px;
+        height: 148px;
+        padding: 0.5rem;
           margin: 0;
       }
       .cards{
-          width: 40vw;
-          margin: 2rem;
-          padding: 2rem;
+        width: auto;
+        padding: 1rem;
       }
+      .cards h1{
+        font-size: 20px;
+        padding: 0;
+      }
+      .cards p{
+        font-size: 10px;
+        font-weight: normal;
+      }
+      /* .grid-card{
+          display: grid;
+          grid-template-columns: auto auto auto;
+          grid-template-rows: auto;
+      } */
       .footer-about{
         padding-top: 5rem;
         margin: 3rem;
@@ -863,6 +911,18 @@ box-shadow:  5px 5px 10px #e0e0e0,
 .img-section{
   width: 100%;
 }
+.teach img{
+  width: 40vw;
+  padding: 3rem;
+  margin-left: 4rem;
+  object-fit: cover;
+}
+.teach h1{
+  padding-top: 4rem;
+}
+.teach p{
+  padding-right: 8rem;
+}
     .grid-container{
       display: grid;
       grid-template-columns: auto auto ;
@@ -893,19 +953,15 @@ box-shadow:  5px 5px 10px #e0e0e0,
     }
     .wrappers{
       display: grid;
-      grid-template-columns: auto auto;
+      grid-template-columns: auto auto auto;
       grid-template-rows: auto;
-      grid-gap: 1rem;
+      grid-gap: 5px;
     }
     .cards{
       width: auto;
     }
-    .cards img{
-      width: 15rem;
-      filter: grayscale(100%);
-    }
-    .cards h1{
-      margin-top: 1.5rem;
+    .certificate h1{
+      font-size: 3rem;
     }
     .grid-container-footer{
     display: grid;
@@ -941,7 +997,7 @@ box-shadow:  5px 5px 10px #e0e0e0,
     }
     .titles p{
       font-size: 25px;
-      margin-top: 3rem;
+      margin-top: 1rem;
     }
     .landing-text{
       font-size: 5rem;
@@ -954,7 +1010,13 @@ box-shadow:  5px 5px 10px #e0e0e0,
     .roadmapimg{
       display: flex;
     }
+    .title-1 {
+      margin-top: 10rem;
+    }
   
+    .why{
+      margin: 0;
+    }
  .titles-grid{
   display: grid;
   grid-template-columns: auto auto;
@@ -962,8 +1024,7 @@ box-shadow:  5px 5px 10px #e0e0e0,
   align-items: flex-start;
  }
   .titles-grid img{
-    min-height: fit-content;
-    width: 80%;
+    width: 100%;
     }
   .titles-grid p{
     font-size: 25px;
@@ -977,6 +1038,23 @@ box-shadow:  5px 5px 10px #e0e0e0,
     width: 50%;
     height: auto;
     margin: 0 auto;
+}
+.teach img{
+  width: 30vw;
+  padding: 3rem;
+  margin-left: 10rem;
+  object-fit: cover;
+}
+.teach h1{
+  padding-top: 4rem;
+  margin: 2rem;
+  font-size: 4rem;
+  padding: 8rem;
+}
+.teach p{
+  margin-top: 2rem;
+  padding-right: 8rem;
+  font-size: 1.2rem;
 }
 .skillsimage{
     display: flex;
@@ -1035,23 +1113,35 @@ box-shadow:  5px 5px 10px #e0e0e0,
     }
     .wrappers{
       display: grid;
-      grid-template-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto;
       grid-template-rows: auto;
       grid-gap: 1rem;
+      margin-left: 5rem;
+      margin-right: 5rem;
     }
     .certificate-para{
+      padding: 10rem;
+    }
+    .grid-certificate{
+      margin-left: 5rem;
+      /* margin: 5rem; */
       padding: 5rem;
     }
     .cards{
       width: auto;
+      margin: 0 auto;
     }
     .cards img{
-      width: 15rem;
-      filter: grayscale(100%);
+      width: 170px;
+      height: 170px;
+    }
+    .cards p{
+      font-size: 14px;
     }
     .cards h1{
-      margin-top: 1.5rem;
+      font-size: 25px;
     }
+
     .grid-container-footer{
     display: grid;
     grid-template-columns: auto auto auto auto;
