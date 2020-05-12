@@ -38,11 +38,9 @@ export default class About extends Component {
                     
                         <div className="sections" data-aos="fade-up">
                             <div className="one">
-                            <img src={access101} className="img-section"/>
                                  <p className="accesspara"><h3>Access 101 </h3> Introduction to modern web development.</p>
                             </div>
                             <div className="two">
-                            <img src={access102} className="img-section"/>
                                 <p className="accesspara"><h3>Access 102 </h3> Introduction to cross platform app development using <span class="access">react native</span>.</p>                     
                             </div>
                         </div>

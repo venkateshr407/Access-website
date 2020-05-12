@@ -12,10 +12,13 @@ import api from "../logo/api.png"
 
 function Aboutaccess() {
     return (
-        <div class="gain" data-aos="fade-up">
+        <div class="gain">
      
-        <div class="skills" id="about" data-aos="fade-up">
-            <h1 data-aos="fade-up">Build A Strong Technical Foundation</h1><Img src={Img1} className="skillsimage" data-aos="fade-up"/>
+        <div class="skills" id="about">
+            <section className="teach-skills">
+            <h1 className="teach-1" data-aos="fade-up">Build A Strong Technical Foundation</h1>
+            <Img src={Img1} className="skillsimage" data-aos="fade-up"/>
+            </section>
         <div class="grid-container">
         <div class="one" data-aos="fade-up">
             <h2>Github</h2>
