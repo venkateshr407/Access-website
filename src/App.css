@@ -65,11 +65,8 @@ html{
     margin-top: 3rem;
 }
 .why{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-   width: 75%;
-   margin: auto;
+  width: 80%;
+  margin: 2rem;
 }
 .title{
     font-size: 25px;
@@ -82,11 +79,8 @@ html{
     margin: 1rem;
 }
 .titles-grid img{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    width: 80vw;
-    float: left;
+  width: 80%;
+  margin: 2rem 0 0 0;
 }
 .codetogit{
   margin-left: 1rem;
@@ -142,9 +136,7 @@ html{
 }
 .teach img{
   width: 80%;
-  padding-top: 3rem;
-  padding-left: 2rem;
-  margin-bottom: 1rem;
+  margin: 2rem;
   
 }
 .teach h1 {
