@@ -3,6 +3,7 @@ import Nav1 from './Components/Nav1';
 import Display from './Components/Display';
 import About from './Components/About';
 import Aboutaccess from './Components/Aboutaccess';
+import Timeline from './Components/Timeline';
 import Roadmap from './Components/Roadmap';
 import Certificate from './Components/Certificate'
 import Team from './Components/Team';
@@ -20,7 +21,8 @@ function App() {
         <About/>
         <Teach/>
         <Aboutaccess/>
-        <Roadmap/>
+        {/* <Roadmap/> */}
+        <Timeline/>
         <Certificate/>
         <Team/>
         <Quote/>

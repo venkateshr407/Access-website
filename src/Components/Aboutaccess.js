@@ -1,6 +1,6 @@
 import React from 'react'
 import Img from 'react-image'
-import Img1 from "../images/languages.png";
+import Img1 from "../images/tech.png";
 // import html from "../logo/languages.png";
 import github from "../logo/github-1.svg";
 import html from "../logo/html-css.png";

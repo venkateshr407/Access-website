@@ -4,6 +4,7 @@
     font-family: 'Montserrat', sans-serif;
    
 }
+
 p{
   font-family: 'Lato', sans-serif;
     color: #020202;
@@ -136,8 +137,9 @@ html{
   margin-top: 2rem;
 }
 .teach img{
-  width: 100%;
-  padding: 3rem;
+  width: 80%;
+  padding-left: 2rem;
+  
 }
 .teach h1 {
   color: #01B1AF;
@@ -192,11 +194,10 @@ background: linear-gradient(to left, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Fi
 }
 .skills h1{
     text-align: left;
-    font-weight: 800;
+    font-weight: normal;
     font-size: 2rem;
     padding: 1rem;
     margin-left: 1rem;
-    text-transform: uppercase;
 }
 .skills h2{
     font-weight: 800;
@@ -325,18 +326,18 @@ box-shadow:  10px 10px 20px #949494,
    margin-top: 5rem;
    padding-top: 3rem;
    margin-left: 2rem;
+   color: #f8f9fa;
    font-weight: 800;
-   color:white;
    }
    .skills-roadmap p{
     text-align: left;
     margin-left: 2rem;
-    color: white;
+    color: #f8f9fa;
    }
-   .text{
+   /* .text{
     padding: 15px 15px 15px 18px;
     /* background-color: #1d1d1d28; */
-    border-radius: 15px;
+    /* border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
   }
    .text {
@@ -367,7 +368,7 @@ box-shadow:  10px 10px 20px #949494,
    .text .main-2  {
     color: tomato;
     font-weight: bold;
-  }
+  } */ */
   .ourteam h1{
     text-align: left;
     line-height: 1;
@@ -376,6 +377,19 @@ box-shadow:  10px 10px 20px #949494,
     color:#7a7a7a;
     margin: 2rem;
     font-size: 2rem;
+}
+.vertical-timeline{
+ margin: 0 auto;
+}
+.vertical-timeline-element-content {
+   width: 70vw;
+}
+.vertical-timeline-element--work p{
+  font-weight: normal;
+  margin: 0;
+}
+.timeline-master{
+  color:white;
 }
   .wrapper{
     display: grid;
@@ -402,7 +416,10 @@ box-shadow:  10px 10px 20px #949494,
     margin: 1rem;
     font-size: 1rem;
   }
-
+.grid-certificate img{
+  object-fit: cover;
+  width: 100%;
+}
   .grid-card{
       display: flex;
       flex-direction: column;
@@ -675,9 +692,7 @@ box-shadow:  5px 5px 10px #e0e0e0,
     .skills-roadmap h1{
       font-size: 4rem;
     }
-    .skills-roadmap p{
-      margin-bottom: 3rem;
-    }
+    
     .certificate h1{
       font-size: 4rem;
     }
@@ -771,12 +786,7 @@ box-shadow:  5px 5px 10px #e0e0e0,
   
    padding: 2rem;
  }
- .skills-roadmaps h1{
-   color: white;
- }
- .skills-roadmaps p{
-  color: white;
-}
+
     .timeline-container::after{
         height: auto;
     }

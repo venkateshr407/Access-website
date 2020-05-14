@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import teachimg from '../images/teach.png'
+import teachimg from '../images/learn.png'
 
 export default class Wewillteach extends Component {
     render() {
