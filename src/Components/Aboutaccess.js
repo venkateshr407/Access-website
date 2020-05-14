@@ -16,9 +16,11 @@ function Aboutaccess() {
      
         <div class="skills" id="about">
             <section className="teach-skills">
-            <h1 className="teach-1" data-aos="fade-up">Build A Strong Technical Foundation</h1>
-            <Img src={Img1} className="skillsimage" data-aos="fade-up"/>
+                <h1 className="teach-1" data-aos="fade-up">Build A Strong Technical Foundation 
+                <h6 className="teach-1">Become a master in <span className="why-access"> frontend development</span>..!</h6></h1>
+                <Img src={Img1} className="skillsimage" data-aos="fade-up"/> 
             </section>
+        
         <div class="grid-container">
         <div class="one" data-aos="fade-up">
             <h2>Github</h2>

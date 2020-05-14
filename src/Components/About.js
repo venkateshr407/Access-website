@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Img from 'react-image'
 import Img1 from "../images/Group.svg";
-import code from "../images/code1.svg";
+import code from "../images/whyaccess.png";
 import Img2 from "../images/worktogether.png";
 import Img3 from "../images/codeandgit.png";
 import access101 from "../images/Image-1.svg";
@@ -9,13 +9,12 @@ import access102 from "../images/coding3.png";
 export default class About extends Component {
     render() {
         return (
-            <div className="container" id="about">
+            <div className="containers" id="about">
                 <div className="about">
                 <h1 class="title">What is <span className="classaccess"> Access</span> ?</h1>
                     <section className="titles-grid" data-aos="fade-up">
-                        
-                    <p data-aos="fade-up"><br/><span class="access">Access</span> is an initiative started by a bunch of professional's from various disciplines (engineering/ education/ finance) with 
-                                only one goal <span class="access" data-aos="fade-up">"Make technology education accessible in rural area's".</span></p>
+                        <p data-aos="fade-up"><br/><span class="access">Access</span> is an initiative started by a bunch of professional's from various disciplines (engineering/ education/ finance) with 
+                                only one goal <span class="access">"Make technology education accessible in rural area's".</span></p>
                     <Img src={Img1} data-aos="fade-up"></Img>                        
     </section>  
                 </div>

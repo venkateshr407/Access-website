@@ -8,9 +8,9 @@ import theImg3 from '../images/karthik sir.jpg';
 function Team() {
     return (
             <div className="team" id="team" data-aos="fade-up">
-                <section className="ourteam">
+                <div className="ourteam">
                 <h1>our mentour's</h1>
-                </section>
+                </div>
                 <br/>
             <section className="wrappers" data-aos="fade-up">
                 <div className="grid-card" data-aos="fade-up">

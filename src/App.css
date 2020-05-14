@@ -13,6 +13,9 @@ p{
 html{
   scroll-behavior: smooth;
 }
+.containers{
+  margin-left: 0.8rem;
+}
 .maintext{
   margin: 2rem;
   text-align: center;
@@ -65,7 +68,8 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
-   margin: 0 auto;
+   width: 75%;
+   margin: auto;
 }
 .title{
     font-size: 25px;
@@ -138,7 +142,9 @@ html{
 }
 .teach img{
   width: 80%;
+  padding-top: 3rem;
   padding-left: 2rem;
+  margin-bottom: 1rem;
   
 }
 .teach h1 {
@@ -174,9 +180,17 @@ background: linear-gradient(to left, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Fi
 
 }
 .teach-skills h1 {
-  color: rgb(143, 144, 214);
+  color: rgb(127, 128, 195);
 }
-
+.teach-1 h6{
+  color: rgb(127, 128, 195);
+  margin-top: 1rem;
+}
+ .why-access{
+   line-height: 1;
+   font-weight: 800;
+  color: rgb(61, 61, 129); 
+}
 .gain{
     margin: 0rem;
     margin-top: 0rem;
@@ -334,45 +348,10 @@ box-shadow:  10px 10px 20px #949494,
     margin-left: 2rem;
     color: #f8f9fa;
    }
-   /* .text{
-    padding: 15px 15px 15px 18px;
-    /* background-color: #1d1d1d28; */
-    /* border-radius: 15px;
-    font-family: 'Montserrat', sans-serif;
-  }
-   .text {
-     width: 70vw;
-     margin: 2vh;
-     color: black;
-     padding: 1vh;
-     background-color: rgba(242, 242, 247, 0.568);
-   }
-   .text h3{
-    margin-top:10px;
-    margin-left: 1vh;
-    color:rgb(104, 78, 250);
-    font-size:16px;
-  }
-   .text p{
-     margin-left: 1vh;
-     font-weight: 300;
-     font-size: 12px;
-     margin-top: 2px;
-     color:black;
-     font-family: 'Montserrat', sans-serif;
-   }
-   .text .main-1  {
-     color: tomato;
-     font-weight: bold;
-   }
-   .text .main-2  {
-    color: tomato;
-    font-weight: bold;
-  } */ */
-  .ourteam h1{
+  .ourteam h1 {
     text-align: left;
     line-height: 1;
-    font-weight: 800;
+    font-weight: 900;
     text-transform: uppercase;
     color:#7a7a7a;
     margin: 2rem;
@@ -437,13 +416,6 @@ box-shadow:  10px 10px 20px #949494,
     filter: grayscale(100%);
     }
     .cards{
-        /* border-radius: 50px;
-        background: #f3f3f3;
-        border-radius: 0px;
-background: #3b2d2d;
-box-shadow:  5px 5px 10px #e0e0e0, 
-             -5px -5px 10px #ffffff; */
-        /* width: 40vh; */
         margin:0 auto;
         text-align: center;
         border-radius: 10px;
@@ -586,6 +558,11 @@ box-shadow:  5px 5px 10px #e0e0e0,
           font-size: 30px;
           color: rgb(248, 248, 248);
       }
+      .containers{
+        margin-right:3rem;
+        margin-left: 3rem;
+        padding: 0;
+      }
       .contain h3{
         font-size: 35px;
         margin-left: 3rem;
@@ -613,13 +590,16 @@ box-shadow:  5px 5px 10px #e0e0e0,
         font-weight: 800;
       }
       .titles {
-        display: grid;
-        grid-template-columns: 30% 80%;
-        grid-gap: 1rem;
-        margin-left:1rem;
+        display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
       }
       .titles p{
-        padding: 3rem 0 3rem 3rem;
+        padding: 4rem 0 0 2rem;
+        margin:  0 0 0 1rem;
       }
       .section-flex {
         display: flex;
@@ -647,6 +627,10 @@ box-shadow:  5px 5px 10px #e0e0e0,
     .titles-grid{
       display: flex;
       flex-direction: unset;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
     }
     .list{
       display: grid;
@@ -726,31 +710,43 @@ box-shadow:  5px 5px 10px #e0e0e0,
   margin: 4rem 2rem 0 2rem;
 }
 .teach-skills{
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
 }
+
 .teach-skills img{
-  width: 50vw;
+  width: 50%;
+  padding: 2rem;
   object-fit: cover;
 }
 
 .teach-skills h1 {
-  color: rgb(143, 144, 214);
   font-weight: normal;
   text-transform: none;
   font-size: 2rem;
-  margin: 1rem 0rem 0 2rem;
 }
 .teach-skills p{
+
   font-size: 16px;
   padding: 0;
   margin: 0;
   margin-top: 2rem;
 }
   .teach{
-     display: grid;
+    
+	  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+     /* display: grid;
      grid-template-columns: auto auto;
-     grid-template-rows: auto;
+     grid-template-rows: auto; */
    }
    .wrappers {
       display: grid;
@@ -886,6 +882,17 @@ box-shadow:  5px 5px 10px #e0e0e0,
       text-align: center;
       margin-top: 0;
     }
+    .titles-grid img{
+      padding: 0rem;
+    }
+    .titles-grid{
+      display: flex;
+    flex-direction: unset;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: stretch;
+    }
     .title {
       font-size: 35px;
       margin-top: 10rem;  
@@ -898,15 +905,16 @@ box-shadow:  5px 5px 10px #e0e0e0,
       font-size: 2rem;
       margin-right: 5rem;
     }
-    .titles p{
-      padding: 0;
-      margin: 4rem;
-      padding-right:5rem;
-    }
+  
     .titles img{
       height: auto;
       float: right;
       margin: 0 auto;
+      padding: 1rem;
+    }
+    .titles p{
+      padding: 0 0 0 2rem;
+      margin: 0 0 0 1rem;
     }
   .codetogit{
     display: none;
@@ -926,10 +934,6 @@ box-shadow:  5px 5px 10px #e0e0e0,
     width: 50%;
     height: auto;
     margin: 0 auto;
-}
-.why{
-  height: auto;
-  width:auto;
 }
 .sections{
   display: grid;
@@ -955,14 +959,14 @@ box-shadow:  5px 5px 10px #e0e0e0,
   object-fit: cover;
 }
 .teach h1{
-  padding-top: 4rem;
+  padding-top: 1rem;
 }
 .teach p{
   padding-right: 8rem;
 }
 
-.teach-skills h1{
-  margin: 4rem 0rem 0 7rem;
+.teach-skills h1 {
+  margin: 0rem 0rem 0 5rem;
   font-size: 2rem;
   padding: 0;
 }
@@ -977,7 +981,7 @@ box-shadow:  5px 5px 10px #e0e0e0,
       grid-template-columns: auto auto ;
       grid-template-rows: auto;
       grid-gap: 2rem;
-      margin-left: 4rem;
+      margin-left: 2rem;
       margin-right: 4rem;
     }
     .grid-container>div{
@@ -1039,6 +1043,10 @@ box-shadow:  5px 5px 10px #e0e0e0,
       text-align: center;
       margin-top: 0;
     }
+    .containers{
+      margin-left: 7rem;
+      margin-right: 5rem;
+    }
     .title {
       font-size: 35px;
       margin-top: 10rem;
@@ -1046,8 +1054,6 @@ box-shadow:  5px 5px 10px #e0e0e0,
     }
     .titles p{
       font-size: 25px;
-      margin-top: 1rem;
-      padding-right: 5rem;
     }
     .landing-text{
       font-size: 5rem;
@@ -1066,16 +1072,21 @@ box-shadow:  5px 5px 10px #e0e0e0,
   
     .why{
       margin: 0;
+      padding: 2rem;
     }
+ 
  .titles-grid{
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto ;
+    display: flex;
+  flex-direction: unset;
+  flex-wrap: nowrap;
+  justify-content: center;
   align-items: flex-start;
+  align-content: stretch;
  }
-  .titles-grid img{
-    width: 100%;
-    }
+ .titles-grid img{
+   width: 25vw;
+   margin-right: 10rem;
+ }
   .titles-grid p{
     font-size: 25px;
     margin-right: 5rem;
@@ -1091,16 +1102,15 @@ box-shadow:  5px 5px 10px #e0e0e0,
 }
 .teach img{
   width: 30vw;
-  padding: 3rem;
-  margin-top: 4rem;
-  margin-left: 10rem;
-  object-fit: cover;
+  margin: 3rem 0 5rem 7rem;
 }
 .teach h1{
-  padding-top: 4rem;
+    font-size: 4rem;
+    padding-left: 5rem;
+  /* padding-top: 4rem;
   margin-top: 4rem;
   font-size: 4rem;
-  padding: 4rem;
+  padding: 4rem; */
 }
 .teach p{
   margin-top: 2rem;
@@ -1108,14 +1118,17 @@ box-shadow:  5px 5px 10px #e0e0e0,
   font-size: 1.4rem;
 }
 .teach-skills h1{
-  margin: 6rem 2rem 0 8rem;
+  margin: 0rem 0rem 0 4rem;
   font-size: 4rem;
   padding: 0;
+}
+.teach-1 {
+  font-size: 1.5rem;
 }
 .teach-skills img{
   width: 40vw;
   padding: 5rem;
-  margin-right: 10rem;
+  margin-right: 5rem;
   object-fit: cover;
 }
 .sections{
