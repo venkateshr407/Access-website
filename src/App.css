@@ -144,7 +144,8 @@ html{
   margin: 0rem 2rem 0 2rem;
 }
 .teach p{
-  color: #01B1AF;
+  color: rgb(7, 134, 132);
+  font-weight: lighter;
   margin-top: 1rem;
   font-size: 16px;
   margin-bottom: 5rem;
@@ -239,7 +240,53 @@ background: linear-gradient(to left, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Fi
   
   background-color:rgb(9, 97, 70);
 } */
+.technology{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(219, 224, 255);
+}
+.technology h1{
+  margin:  2rem 2rem 0 2rem;
+}
+.technology h2{
+  font-weight: 600;
+  color: #7a7a7a;
+  text-transform: uppercase;
+  margin: 2rem 2rem 0 2rem;
+}
 
+.logo-icons  {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  
+  margin: 0 ;
+}
+.logo-icons Img{
+  width: 50%;
+  margin: 2rem 0rem 0rem 3rem;
+  -webkit-filter: grayscale(100);
+  filter: grayscale(100);
+}
+.logo-icons Img:hover{
+  filter: grayscale(0);
+  transition: filter .20s ease-in;
+}
+.box:nth-child(1){
+  display: flex;
+  align-items: center;
+}
+.box:nth-child(4){
+  display: flex;
+  align-items: center;
+}
+
+.logo-icons > div{
+  width: 50%;
+  height: auto;
+  margin-bottom: 2rem;
+}
 .img-section{
   width: 100%;
   height: 40vh;
@@ -329,7 +376,6 @@ box-shadow:  10px 10px 20px #949494,
    .skills-roadmap h1{
    text-align: left;
    text-transform: uppercase;
-   margin-top: 5rem;
    padding-top: 3rem;
    margin-left: 2rem;
    color: #f8f9fa;
@@ -649,6 +695,27 @@ box-shadow:  10px 10px 20px #949494,
       padding: 2rem;
       margin-top: 1rem;
     }
+    .technology h2{
+      font-size: 2rem;
+      font-weight: 900;
+      margin: 2rem;
+    }
+    .logo-icons>div{
+      width: 25%;
+      margin-bottom: 2rem;
+    }
+    .box:nth-child(8){
+      align-items: center;
+    }
+    .box:nth-child(1){
+      align-items: center;
+    }
+    .box:nth-child(7){
+      align-items: flex-start;
+    }
+    .logo-icons Img{
+      padding: 1rem;
+    }
     .demand{
         font-size: 35px;
     }
@@ -673,7 +740,7 @@ box-shadow:  10px 10px 20px #949494,
       font-size: 4rem;
     }
     .ourteam h1{
-      font-size: 4rem;
+      font-size: 3rem;
   
     }
     .list{
@@ -695,7 +762,7 @@ box-shadow:  10px 10px 20px #949494,
       /* background-color: rgb(228, 228, 228); */
      }
 .teach img{
-  width: 50vw;
+  width: 40%;
   object-fit: cover;
 }
 .teach h1 {
@@ -729,16 +796,12 @@ box-shadow:  10px 10px 20px #949494,
   margin-top: 2rem;
 }
   .teach{
-    
-	  display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: stretch;
-     /* display: grid;
-     grid-template-columns: auto auto;
-     grid-template-rows: auto; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
    }
    .wrappers {
       display: grid;
@@ -829,45 +892,12 @@ box-shadow:  10px 10px 20px #949494,
         font-size: 10px;
         font-weight: normal;
       }
-      /* .grid-card{
-          display: grid;
-          grid-template-columns: auto auto auto;
-          grid-template-rows: auto;
-      } */
       .footer-about{
         padding-top: 5rem;
         margin: 3rem;
       }
-  }
-  /* @media only screen and (min-width:770px) and (max-width:1024px){
-    .skillimage{
-      width: 50%;
-      height: auto;
-      margin: 0 auto;
-  }
-  .titles-grid{
-    display: flex;
-    flex-direction: unset;
-  }
-  .titles-grid p{
-    font-size: 25px;
-  }
-    .grid-container{
-      display: grid;
-      grid-template-columns: auto auto;
-      grid-template-rows: auto;
-      grid-gap: 0.5rem;
-      margin-top: 2rem;
     }
-    .timeline-container{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-     }
-  } */
+
   @media only screen  and (min-width:900px) and (max-width:1099px){
     .maintext{
       margin: 4rem;
@@ -1099,10 +1129,6 @@ box-shadow:  10px 10px 20px #949494,
 .teach h1{
     font-size: 4rem;
     padding-left: 5rem;
-  /* padding-top: 4rem;
-  margin-top: 4rem;
-  font-size: 4rem;
-  padding: 4rem; */
 }
 .teach p{
   margin-top: 2rem;
@@ -1122,6 +1148,18 @@ box-shadow:  10px 10px 20px #949494,
   padding: 5rem;
   margin-right: 5rem;
   object-fit: cover;
+}
+.technology h2{
+  font-size: 5rem;
+  font-weight: 900;
+  margin: 0 0 2rem 4rem;
+}
+.logo-icons{
+  padding: 2rem;
+}
+.box:nth-child(3){
+  display: flex;
+  padding: 1rem;
 }
 .sections{
   display: grid;
