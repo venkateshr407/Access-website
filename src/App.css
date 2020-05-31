@@ -172,6 +172,9 @@ background: linear-gradient(to left, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Fi
   
 
 }
+.teach-skills{
+  background-color:rgb(216, 217, 224) ;
+}
 .teach-skills h1 {
   color: rgb(127, 128, 195);
 }
@@ -243,7 +246,7 @@ background: linear-gradient(to left, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Fi
 .technology{
   display: flex;
   flex-wrap: wrap;
-  background-color: rgb(219, 224, 255);
+  background-color: rgb(255, 255, 255);
 }
 .technology h1{
   margin:  2rem 2rem 0 2rem;
@@ -252,7 +255,7 @@ background: linear-gradient(to left, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Fi
   font-weight: 600;
   color: #7a7a7a;
   text-transform: uppercase;
-  margin: 2rem 2rem 0 2rem;
+  margin: 2rem;
 }
 
 .logo-icons  {
@@ -698,7 +701,7 @@ box-shadow:  10px 10px 20px #949494,
     .technology h2{
       font-size: 2rem;
       font-weight: 900;
-      margin: 2rem;
+      margin: 3rem 0 2rem 2rem;
     }
     .logo-icons>div{
       width: 25%;
@@ -1152,7 +1155,7 @@ box-shadow:  10px 10px 20px #949494,
 .technology h2{
   font-size: 5rem;
   font-weight: 900;
-  margin: 0 0 2rem 4rem;
+  margin: 3rem 0 2rem 4rem;
 }
 .logo-icons{
   padding: 2rem;
@@ -1221,6 +1224,9 @@ box-shadow:  10px 10px 20px #949494,
       /* margin: 5rem; */
       padding: 5rem;
     }
+    .ourteam h1 {
+      font-size: 4rem;
+  }
     .cards{
       width: auto;
       margin: 0 auto;
